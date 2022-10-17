@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "iOSCoreServices",
-            url: "https://spm.fleksy.com/iOSCoreServices/v1.2.0/iOSCoreServices-1.2.0.xcframework.zip",
-            checksum: "b40ced445257d2d0ce7bfe07ed7bbe68965e4a2d092c75fcd745543c3a36d727"
+            url: "https://spm.fleksy.com/iOSCoreServices/v1.3.0/iOSCoreServices-1.3.0.xcframework.zip",
+            checksum: "1095d68c9474a447486745e36fa7a2e697a583784e7059a59d7309193cb3ca94"
         )
     ]
 )
