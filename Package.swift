@@ -5,9 +5,9 @@ import PackageDescription
 let package = Package(
     name: "iOSCoreServices",
     platforms: [
-        .iOS(.v10),
+        .iOS(.v11),
         .watchOS(.v8),
-        .macCatalyst(.v15)
+        .macCatalyst(.v13)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "iOSCoreServices",
-            url: "https://spm.fleksy.com/iOSCoreServices/v1.6.0/iOSCoreServices-1.6.0.xcframework.zip",
-            checksum: "e6fe8bd2cb6f3b3c7d3ce52fa86a90f0ef81c88800d0cfe74b385f4deaa312ae"
+            url: "https://spm.fleksy.com/iOSCoreServices/v1.6.1/iOSCoreServices-1.6.1.xcframework.zip",
+            checksum: "53a9b8265c5edf19c0a194213b5a519df40125c9f22e1dd270a15a50dbc2485e"
         )
     ]
 )
