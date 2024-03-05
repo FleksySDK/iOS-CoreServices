@@ -1,13 +1,14 @@
-// swift-tools-version:5.7
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
     name: "iOSCoreServices",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v13),
         .watchOS(.v8),
-        .macCatalyst(.v13)
+        .macCatalyst(.v13),
+        .visionOS(.v1)
     ],
     products: [
         .library(
@@ -17,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "iOSCoreServices",
-            url: "https://spm.fleksy.com/iOSCoreServices/v1.13.0/iOSCoreServices-1.13.0-Xcode14.xcframework.zip",
-            checksum: "f56ae2f54b16ab3a9ab07bd2a69aebca49461b0925a9acc7616b1f1a56c73bf3"
+            url: "https://spm.fleksy.com/iOSCoreServices/v1.14.0/iOSCoreServices-1.14.0.xcframework.zip",
+            checksum: "5ba8a11e23c30a44111db4ce14de537da6682ed798085bdf93d31a1d87bcf113"
         )
     ]
 )
